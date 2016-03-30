@@ -4,7 +4,7 @@
 #
 Name     : rubygem-test_xml
 Version  : 0.1.6
-Release  : 4
+Release  : 5
 URL      : https://rubygems.org/downloads/test_xml-0.1.6.gem
 Source0  : https://rubygems.org/downloads/test_xml-0.1.6.gem
 Summary  : No detailed summary available
@@ -63,65 +63,28 @@ pushd %{buildroot}%{gem_dir}/gems/test_xml-0.1.6 && rspec spec/ && popd
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/test_xml-0.1.6.gem
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/MiniTest/Test/cdesc-Test.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/MiniTest/cdesc-MiniTest.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/Nokogiri/XML/Node/cdesc-Node.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/Nokogiri/XML/cdesc-XML.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/Nokogiri/cdesc-Nokogiri.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/RSpec/cdesc-RSpec.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/Test/Unit/TestCase/cdesc-TestCase.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/Test/Unit/cdesc-Unit.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/Test/cdesc-Test.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/AssertionConfig/assert_name-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/AssertionConfig/assert_not_name-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/AssertionConfig/cdesc-AssertionConfig.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/AssertionConfig/expectation-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/Assertions/cdesc-Assertions.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/Assertions/correct_assert-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/MatcherMethods/cdesc-MatcherMethods.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/MatcherMethods/parse_xml-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/MatcherMethods/xml_contain-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/MatcherMethods/xml_equal-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/MatcherMethods/xml_structure_contain-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/MatcherMethods/xml_structure_equal-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/NokogiriExt/Node/cdesc-Node.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/NokogiriExt/Node/comparable_attributes-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/NokogiriExt/Node/contains%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/NokogiriExt/Node/contains_elements_of%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/NokogiriExt/Node/elements-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/NokogiriExt/Node/equal_text%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/NokogiriExt/Node/leaf%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/NokogiriExt/Node/match%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/NokogiriExt/Node/matches_at_least_one%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/NokogiriExt/Node/placeholder%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/NokogiriExt/cdesc-NokogiriExt.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/cdesc-TestXml.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/enable_placeholders-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/TestXml/placeholders_enabled%3f-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/doc/test_xml-0.1.6/ri/page-README_rdoc.ri
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/.gitignore
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/CHANGES.md
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/Gemfile
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/README.rdoc
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/Rakefile
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/lib/test_xml.rb
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/lib/test_xml/assertions.rb
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/lib/test_xml/matcher_methods.rb
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/lib/test_xml/mini_test.rb
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/lib/test_xml/nokogiri.rb
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/lib/test_xml/nokogiri/node.rb
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/lib/test_xml/spec.rb
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/lib/test_xml/test_unit.rb
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/lib/test_xml/version.rb
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/spec/matchers/contain_xml_spec.rb
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/spec/matchers/contain_xml_structure_spec.rb
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/spec/matchers/equal_xml_spec.rb
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/spec/matchers/equal_xml_structure_spec.rb
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/spec/spec_helper.rb
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/test/nokogiri/test_node.rb
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/test/test_helper.rb
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/test/test_unit/test_assertions.rb
-/usr/lib64/ruby/gems/2.2.0/gems/test_xml-0.1.6/test_xml.gemspec
-/usr/lib64/ruby/gems/2.2.0/specifications/test_xml-0.1.6.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/test_xml-0.1.6.gem
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/.gitignore
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/CHANGES.md
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/Gemfile
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/README.rdoc
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/Rakefile
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/lib/test_xml.rb
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/lib/test_xml/assertions.rb
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/lib/test_xml/matcher_methods.rb
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/lib/test_xml/mini_test.rb
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/lib/test_xml/nokogiri.rb
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/lib/test_xml/nokogiri/node.rb
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/lib/test_xml/spec.rb
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/lib/test_xml/test_unit.rb
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/lib/test_xml/version.rb
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/spec/matchers/contain_xml_spec.rb
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/spec/matchers/contain_xml_structure_spec.rb
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/spec/matchers/equal_xml_spec.rb
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/spec/matchers/equal_xml_structure_spec.rb
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/spec/spec_helper.rb
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/test/nokogiri/test_node.rb
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/test/test_helper.rb
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/test/test_unit/test_assertions.rb
+/usr/lib64/ruby/gems/2.3.0/gems/test_xml-0.1.6/test_xml.gemspec
+/usr/lib64/ruby/gems/2.3.0/specifications/test_xml-0.1.6.gemspec
